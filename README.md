@@ -5,6 +5,7 @@
 ```bash
 # 复制应用
 sudo cp -R /Applications/WeChat.app /Applications/微信双开.app
+
 # 修改应用唯一标识符（避免进程冲突）
 sudo /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier net.maclub.wechat" /Applications/微信双开.app/Contents/Info.plist
 
